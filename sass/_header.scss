@@ -1,0 +1,36 @@
+.header{
+    height: calc(100vh - 90px);
+    background-image: url(../img//IMAGE.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    
+    &__content{
+        max-width: 580px;
+        text-align: center;
+    }
+    &__suptitle{
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;        
+        color: #C0C0C0;
+    }
+    &__title{
+        font-size: 54px;
+        line-height: 59px;
+        text-align: center;        
+        color: #FFFFFF;
+    }
+    &__text{
+        padding-top: 18px;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;        
+        color: #C0C0C0;
+    }
+}

@@ -1,0 +1,33 @@
+.need{
+    background-image: url(/img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+
+    &__suptitle{
+        padding-top: 80px;
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;        
+        color: #FFFFFF;
+    }
+    &__title{
+        padding-top: 30px;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;        
+        color: #C0C0C0;
+    }
+    &__btn{
+        margin-top: 31px;
+        padding: 10px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.4px;        
+        color: #000000;
+        background: #FFFFFF;
+        border-radius: 14px;
+    }
+}

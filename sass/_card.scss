@@ -1,0 +1,24 @@
+.card{
+    background-image: url(/img/IMAGE\ \(7\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    &__content{
+        padding-top: 300px;
+        padding-left: 1050px;
+    }
+    &__suptitle{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__text{
+        max-width: 273px;
+        font-size: 14px;
+        line-height: 20px;        
+        color: #C0C0C0;
+    }
+}        

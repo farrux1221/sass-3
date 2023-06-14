@@ -1,0 +1,23 @@
+.col{
+    height: 100vh;
+    background-image: url(../img/IMAGE\ \(5\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 1050px;
+    padding-top: 300px;
+    &__content{
+        max-width: 298px;
+    }
+    &__suptitle{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;        
+        color: #FFFFFF;
+    }
+    &__text{
+        font-size: 14px;
+        line-height: 20px;        
+        color: #C0C0C0;
+    }
+}

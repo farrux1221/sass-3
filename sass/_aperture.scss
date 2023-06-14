@@ -1,0 +1,94 @@
+.aperture{
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+
+    &__logo{
+        padding-left: 150px;
+    }
+    &__text{
+        padding-top: 20px;
+        font-size: 13px;
+        line-height: 20px;
+        color: #C0C0C0;
+        padding-left: 150px;
+    }
+    &__sup{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #C0C0C0;
+    }
+    &__suptitle{
+        padding-left: 800px;
+    }
+    &__sub{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;        
+        color: #C0C0C0;
+        padding: 10px;
+    }
+    &__subtitle{
+        padding-left: 1050px;
+        margin-top: -110px;
+    }
+    &__col{
+        width: 1168px;
+        height: 2px;
+        background-color: white;
+        margin: 0 90px;
+        margin-top: 36px;
+    }
+    &__row{
+        padding-top: 36px;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__all{
+        padding-top: 20px;
+        font-size: 13px;
+        line-height: 20px;        
+        color: #C0C0C0;
+    }      
+    &__btn{
+        width: 458px;
+        height: 52px;
+        border-radius: 12px;
+        margin-left: 700px;
+        margin-top: -90px;
+    }   
+    &__about{
+        width: 1168px;
+        height: 2px;
+        background-color: #FFFFFF;
+        margin-top: 30px;
+    }
+    &__lang{
+        display: flex;
+        padding-top: 56px;
+    }
+    &__right{
+        font-size: 14px;
+        line-height: 20px;        
+        color: #C0C0C0;
+    }
+    &__left{
+        font-size: 13px;
+        line-height: 20px;        
+        color: #C0C0C0;
+    }
+    &__subscribe{
+        display: flex;
+        justify-content: right;
+        margin-top: -20px;
+        gap: 20px;
+    }
+}

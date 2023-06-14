@@ -1,0 +1,28 @@
+.start{
+    background-image: url(/img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+
+    &__suptitle{
+        padding-top: 113px;
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;        
+        color: #FFFFFF;
+    }
+    &__title{
+        padding-top: 15px;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #C0C0C0;
+    }
+    &__img{
+        img{
+            padding-top: 125px;
+            padding: 30px;
+            margin-left: 60px;
+        }
+    }
+}

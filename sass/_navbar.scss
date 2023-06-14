@@ -1,0 +1,36 @@
+.navbar{
+    height: 90px;
+    background-color: black;
+    &__content{
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        line-height: 90px;
+    }
+    &__menu{
+        display: flex;
+        li{
+            margin: 0 28px;
+        }
+    }
+    &__btn{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.4px;     
+        padding: 10px 20px;   
+        color: #000000;
+        background-color: white;
+        border-radius: 14px;
+    }
+    &__logo{
+        img{
+        width: 128px;
+        height: 30px;
+        position: relative;
+        top: 11px;
+      }
+    }
+}

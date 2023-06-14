@@ -1,0 +1,23 @@
+.row{
+    background-image: url(../img/1.png);
+    &__title{
+        height: 42px;
+        font-size: 40px;
+        line-height: 42px;
+        text-align: center;        
+        color: white;
+    }
+    &__suptitle{
+        font-size: 23px;
+        line-height: 30px;
+        text-align: center;        
+        color: #C0C0C0;
+    }
+    &__img{
+        img{
+            width: 576px;
+            padding-top: 24px;
+            margin-right: 16px;
+        }
+    }
+}

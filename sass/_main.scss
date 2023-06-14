@@ -1,0 +1,38 @@
+.main{
+    background-image: url(../img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__content{
+        display: flex;
+        align-items: center;
+    }
+    &__suptitle{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #C0C0C0;
+    }
+    &__title{
+        padding-top: 6px;
+        font-size: 28px;
+        line-height: 32px;        
+        color: #FFFFFF;
+    }
+    &__text{
+        padding-top: 14px;
+        font-size: 14px;
+        line-height: 20px;         
+        color: #FFFFFF;
+    }
+    &__btn{
+        margin-top: 29px;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.4px;        
+        color: #000000;
+        padding: 9px 13px 10px;
+        border-radius: 14px;
+    }
+}
